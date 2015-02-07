@@ -47,6 +47,7 @@
 .col-9 {
 	width: 75%;
 	float: right;
+	padding: 30px;
 }
 .col-10 {
 	width: 83.33%;
@@ -64,31 +65,38 @@
 
 /*Above is all bootstrap.*/
 
+body {
+	background: rgba(224, 239, 241, 1);
+}
+
 h1 {
-	font-size: 60px;
+	font-size: 75px;
 	text-align: center;
 	margin: 10px 0 10px 0;
 	font-family: 'Playfair Display SC', serif;
+	color: rgb(0, 0, 0);
+	font-style: italic;
 }
 
 h2{
 	text-align: right;
-	font-style: italic;
 	margin-top: 0;
 	padding-right: 10%;
+	color: rgb(104, 1, 72);
 }
 
 .top {
-	background-color: gray;
-	border: 1px solid black;
+	background-color: rgb(125, 180, 181);
 	line-height: 25px;
 	text-align: center;
+	border-radius: 25%;
 }
 
 .navigate {
-	background-color: gray;
+	background-color: rgb(125, 180, 181);
 	text-align: left;
 	padding: 5px;
+	border-radius: 3%;
 }
 
 .nhead{
@@ -102,3 +110,39 @@ ul {
 	margin: 5px;
 	line-height: 25px;
 }
+
+.navtop {
+	padding: 30px;
+}
+
+.summary {
+	padding: 10px;
+	text-align: justify;
+}
+
+.box {
+	border: 1px solid black;
+	background-color: rgba(104, 1, 72, .25);
+	border-radius: 6%;
+}
+
+.mission {
+	text-align: justify;
+	padding: 0 40px 20px 40px;
+}
+
+
+h4 {
+	text-align: center;
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h4 {
+  	font-size: 12px;
+  }
