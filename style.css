@@ -112,7 +112,7 @@ ul {
 }
 
 .navtop {
-	padding: 30px;
+	padding: 10px 30px 30px 30px;
 }
 
 .summary {
@@ -134,6 +134,11 @@ ul {
 
 h4 {
 	text-align: center;
+}
+
+.bar {
+	background-color: rgb(104, 1, 72);
+	line-height: 20px;
 }
 
 
